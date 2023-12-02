@@ -1,0 +1,15 @@
+{
+    "name": "hxsoul/terabox-download",
+    "description": "Convert terabox links to downloadable links",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hxsoul\\TeraboxDownload\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
